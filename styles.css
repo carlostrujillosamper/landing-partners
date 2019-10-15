@@ -254,28 +254,11 @@ table {
 
   }
 }
-.rectangle-pic {
-  border: 2px solid rgb(6, 170, 6);
-  border-radius: 6px;
-  max-height: 343.2px;
-}
 
-@media (max-width:600px){
-  .rectangle-pic {
-    border: 2px solid rgb(6, 170, 6);
-    border-radius: 6px;
-    height: 185px;
-  }
-}
-@media  (max-width:768px ) and (min-width:700px) {
-  .rectangle-pic {
-    border: 0px solid rgb(6, 170, 6);
-    border-radius: 6px;
-    width: auto;
-  }
-}
 .rectangle-pic img{
   max-width: 100%;
+  border-radius: 6px;
+
 }
 
 .proyect-text {
@@ -335,6 +318,7 @@ table {
     background-color: #edfaff;
     margin-top: 72px;
     display: flex;
+    flex-direction: column;
 
   }
 }
@@ -352,7 +336,7 @@ table {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:5px;
+    margin:30px;
   }
 }
 @media  (max-width:768px ) and (min-width:700px) {
@@ -362,7 +346,7 @@ table {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:5px;
+    margin:30px;
   }
 }
 
@@ -398,18 +382,21 @@ table {
 }
 @media (max-width:600px){
   .colaborate-button {
-    width: 100%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin:30px;
   }
 }
 @media  (max-width:768px ) and (min-width:700px) {
   .colaborate-button {
-    width: 50%;
+    width: auto;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 15px;
+
   }
 }
 .colaborate-button button {
@@ -424,6 +411,21 @@ table {
   padding-left: 111px;
   padding-right: 111px;
   height: 79px;
+}
+@media (max-width:600px){
+  .colaborate-button button {
+    background-color: #2dc5fa;
+    color: white;
+    border-radius: 6px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 60px;
+  }
 }
 @media  (max-width:768px ) and (min-width:700px) {
   .colaborate-button button {
@@ -563,7 +565,8 @@ display: flex;
 .text-copyright{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+  justify-content: center;
+  margin-left: 16px;
 }
 .text-copyright img{
 	margin-top: 3px;
