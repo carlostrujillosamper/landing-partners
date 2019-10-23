@@ -148,11 +148,50 @@ table {
   padding: 16px 85px;
   text-align: center;
   text-decoration: none;
-  margin-right: 20px;
+  margin-right: 110px;
 
 }
+@media (max-width:600px){
+  #navbar button {
+    background: #32c3ff;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    order: 2;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+  
+  }
+}
+@media (max-width:768px ) and (min-width:700px)  {
+  #navbar button {
+    background: #32c3ff;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    order: 2;
+    padding: 16px 85px;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 110px;
+  
+  }
+}
 #navbar img{
-  margin-left: 20px;
+  margin-left: 110px;
+}
+@media(max-width:600px){
+  #navbar img{
+    margin-left: 40px;
+  }
 }
 .hexagon {
   width: 100%;
@@ -572,6 +611,7 @@ table {
     padding-right:10px;
     display: flex;
     flex-direction: column;
+    width: 20px;
   
   }
 }
@@ -585,8 +625,17 @@ table {
 }
 @media(max-width:600px){
   .footer-logo-right img{
-    width: 300px;
+    width: 200px;
     margin-top:20px;
+    margin-left:40px;
+  }
+}
+@media (max-width:768px ) and (min-width:700px) {
+
+  .footer-logo-right img{
+    width: 350px;
+    margin-top:20px;
+    margin-right:45px;
   }
 }
 .footer-logo-left{
@@ -602,4 +651,36 @@ display: flex;
 .text-copyright img{
 	margin-top: 3px;
 	margin-bottom: 3px;
+}
+@media(max-width:600px){
+  .text-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    width: 200px;
+  }
+}
+@media (max-width:768px ) and (min-width:700px) {
+
+  .text-copyright{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 16px;
+    width: 200px;
+  }
+}
+@media(max-width:600px){
+  .footer-logo-left{
+    margin-left:35px;
+    
+    }
+}
+@media (max-width:768px ) and (min-width:700px) {
+
+  .footer-logo-left{
+    margin-left:35px;
+    
+    }
 }
